@@ -9,6 +9,13 @@ def get_lines():
 
 def part1():
    lines = get_lines()
+   curr = 50
+
+   for line in lines:
+      dir = line[0]
+      count = int(line[1:])
+      print(dir, count)
+
 
    return 0
 
