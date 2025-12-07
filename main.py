@@ -14,7 +14,7 @@ def main():
     t3 = time.perf_counter()
     res2 = part2()
     t4 = time.perf_counter()
-    logger.info(f"Part 1 took {round(t4-t3, 4)} seconds. Result = {res2}")
+    logger.info(f"Part 2 took {round(t4-t3, 4)} seconds. Result = {res2}")
 
 
 if __name__ == "__main__":
