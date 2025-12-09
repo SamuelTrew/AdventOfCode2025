@@ -44,7 +44,7 @@ def part2():
          num_str = str(num)
 
          # Effectively getting all factors of len(num_str)
-         for i in range(1, len(num_str)):
+         for i in range(1, (len(num_str) // 2) + 1):
             # Ignore perfect divisions
             if len(num_str) % i != 0:
                continue
