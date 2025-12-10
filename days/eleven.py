@@ -4,8 +4,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def get_lines():
-   with open("input/1.txt") as f:
-      return f.readlines()
+   with open("input/11.txt") as f:
+      return [line.strip() for line in f.readlines()]
 
 def part1():
    lines = get_lines()
