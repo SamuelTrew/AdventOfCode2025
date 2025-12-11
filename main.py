@@ -1,4 +1,4 @@
-from days.five import part1, part2
+from days.six import part1, part2
 import time
 import logging
 

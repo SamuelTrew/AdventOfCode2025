@@ -5,7 +5,7 @@ logger = logging.getLogger(__name__)
 
 def get_lines():
    with open("input/1.txt") as f:
-      return [line.strip() for line in f.readlines()]
+      return [line.strip("\n") for line in f.readlines()]
 
 def part1():
    lines = get_lines()
